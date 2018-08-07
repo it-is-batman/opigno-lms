@@ -58,9 +58,8 @@
     },
     "autoload": {
         "classmap": [
-            "scripts/composer/ScriptHandler.php"
-        ],
-        "files": ["load.environment.php"]
+            "../../../../scripts/composer/ScriptHandler.php"
+        ]
     },
     "scripts": {
         "pre-install-cmd": [
