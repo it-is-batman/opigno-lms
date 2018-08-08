@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"drupal/calendar": "dev-master#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
+		"drupal/calendar": "1.x-dev#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
 		"drupal/view_mode_selector": "1.x-dev#11c9ad2",
 		"drupal/views_role_based_global_text": "1.x-dev#550f8e0",
 		"dompdf/dompdf": "0.8.0",
