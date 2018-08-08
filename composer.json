@@ -10,6 +10,9 @@
 		}
 	],
 	"require": {
+		"drupal/calendar": "1.x-dev#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
+		"drupal/view_mode_selector": "1.x-dev#11c9ad2",
+		"drupal/views_role_based_global_text": "1.x-dev#550f8e0",
 		"dompdf/dompdf": "0.8.0",
 		"rusticisoftware/tincan": "@stable",
 		"symfony/psr-http-message-bridge": "^1.0",
@@ -36,10 +39,7 @@
 		"drupal/private_message": "1.0@beta",
 		"drupal/token": "1.1",
 		"drupal/token_filter": "1.0@beta",
-		"drupal/view_mode_selector": "1.x-dev#11c9ad2",
-		"drupal/views_role_based_global_text": "1.x-dev#550f8e0",
 		"drupal/views_templates": "1.0.0-alpha1",
-		"drupal/calendar": "1.x-dev#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
 		"drupal/entity_print": "2.0",
 		"drupal/group": "1.0.0-rc2",
 		"drupal/popup_field_group": "1.2",
@@ -129,6 +129,7 @@
 				"2965624": "https://www.drupal.org/files/issues/2018-04-24/popup_field_group-form_submit-2965624-2.patch",
 				"2971021": "https://www.drupal.org/files/issues/2018-05-07/popup_field_group-link_query-2971021-2.patch"
 			}
-		}
+		},
+		"enable-patching": true
 	}
 }
