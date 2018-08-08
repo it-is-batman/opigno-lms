@@ -54,7 +54,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+	"preferred-install": {
+	    "drupal/view_mode_selector": "source",
+	    "drupal/views_role_based_global_text": "source",
+	    "drupal/calendar": "source"
+	}
     },
     "autoload": {
         "classmap": [
