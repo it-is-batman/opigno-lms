@@ -50,8 +50,9 @@
 	"config": {
 		"preferred-install": {
 			"drupal/view_mode_selector": "source",
-			"drupal/views_role_based_global_text": "source",
-			"drupal/calendar": "source"
+			"drupal/views_role_based_global_text": "dist",
+			"drupal/calendar": "source",
+			"*": "dist"
 		}
 	},
 	"autoload": {
