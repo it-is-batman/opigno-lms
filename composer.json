@@ -9,32 +9,6 @@
 			"role": ""
 		}
 	],
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://packages.drupal.org/8"
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "drupal/calendar",
-				"version": "1.x-dev",
-				"source": {
-					"url": "https://git.drupal.org/project/calendar.git",
-					"type": "git",
-					"reference": "73e2979f3ed951b1fb3ad942e2d89d673aa52e1d"
-				}
-			}
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/foobar/intermediate.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/foobar/intermediate.git"
-		}
-	],
 	"require": {
 		"dompdf/dompdf": "0.8.0",
 		"rusticisoftware/tincan": "@stable",
@@ -65,7 +39,7 @@
 		"drupal/view_mode_selector": "1.x-dev#11c9ad2",
 		"drupal/views_role_based_global_text": "1.x-dev#550f8e0",
 		"drupal/views_templates": "1.0.0-alpha1",
-		"drupal/calendar": "1.x-dev#73e2979",
+		"drupal/calendar": "1.x-dev#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
 		"drupal/entity_print": "2.0",
 		"drupal/group": "1.0.0-rc2",
 		"drupal/popup_field_group": "1.2",
@@ -74,7 +48,6 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"config": {
-		"sort-packages": true,
 		"preferred-install": {
 			"drupal/view_mode_selector": "source",
 			"drupal/views_role_based_global_text": "source",
