@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"drupal/calendar": "1.x-dev#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
+		"drupal/calendar": "8.x-1.x#73e2979f3ed951b1fb3ad942e2d89d673aa52e1d",
 		"drupal/view_mode_selector": "1.x-dev#11c9ad2",
 		"drupal/views_role_based_global_text": "1.x-dev#550f8e0",
 		"dompdf/dompdf": "0.8.0",
@@ -47,14 +47,6 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"config": {
-		"preferred-install": {
-			"drupal/view_mode_selector": "source",
-			"drupal/views_role_based_global_text": "dist",
-			"drupal/calendar": "source",
-			"*": "dist"
-		}
-	},
 	"autoload": {
 		"classmap": [
 			"../../../../scripts/composer/ScriptHandler.php"
