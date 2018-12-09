@@ -23,8 +23,7 @@
 		}
 	},
 	"require": {
-		"drupal/calendar": "1.x-dev#73e297",
-		"drupal/opigno_class": "^1.0"
+		"drupal/calendar": "1.x-dev#73e297"
 	},
 	"extra": {
 		"installer-paths": {
