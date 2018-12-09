@@ -17,6 +17,11 @@
 			"url": "https://packages.drupal.org/8"
 		}
 	],
+	"config": {
+		"preferred-install": {
+			"drupal/calendar": "source"
+		}
+	},
 	"require": {
 		"drupal/calendar": "1.x-dev#73e297",
 		"drupal/opigno_class": "^1.0"
