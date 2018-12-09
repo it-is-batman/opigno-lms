@@ -23,7 +23,6 @@
 		}
 	},
 	"require": {
-		"drupal/calendar": "dev-1.x#73e297",
 		"drupal/opigno_class": "^1.0"
 	},
 	"extra": {
