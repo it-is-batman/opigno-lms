@@ -18,22 +18,29 @@
 		}
 	],
 	"require": {
-		"composer/installers": "^1.0.24",
-		"dompdf/dompdf": "0.8.0",
-		"rusticisoftware/tincan": "@stable",
-		"drupal/commerce": "^2.8"
-	},
-	"config": {
-		"vendor-dir": "../../vendor"
+		"drupal/calendar": "1.x-dev#73e297",
+		"drupal/opigno_class": "^1.0",
 	},
 	"extra": {
 		"installer-paths": {
-			"../../modules/contrib/{$name}": ["type:drupal-module"],
-			"../../profiles/contrib/{$name}": ["type:drupal-profile"],
-			"../../themes/contrib/{$name}": ["type:drupal-theme"]
-		}
-	},
-	"scripts": {
-		"post-update-cmd": "rm -r -f core/ composer.lock"
+            "web/core":                     ["type:drupal-core"],
+            "web/libraries/{$name}":        ["type:drupal-library"],
+            "web/modules/contrib/{$name}":  ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}":   ["type:drupal-theme"],
+            "drush/Commands/{$name}":       ["type:drupal-drush"]
+        },
+		 "patches": {
+				    "drupal/calendar": {
+				        "2756445": "https://www.drupal.org/files/issues/2756445-month-names-not-showing-10.patch",
+				        "2699477": "https://www.drupal.org/files/issues/2018-04-06/calendar-date_range-2699477-71.patch",
+				        "2604546": "https://www.drupal.org/files/issues/2018-05-09/2604546-33.patch",
+				        "2630234": "https://www.drupal.org/files/issues/fix_menu_tabs_in-2630234-15.patch",
+				        "2867991": "https://www.drupal.org/files/issues/tab_navigation_not_working_after_using_pager-2867991-5.patch",
+				        "2901594": "https://www.drupal.org/files/issues/week-week-day-display-issues-2901594-15.patch",
+				        "2955351": "https://www.drupal.org/files/issues/2018-04-23/2955351-5-base-filter.patch"
+				    },
+				},
+        "enable-patching": true
 	}
 }
